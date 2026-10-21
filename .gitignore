@@ -1,0 +1,15 @@
+# ESP-IDF build artifacts
+build/
+sdkconfig.old
+sdkconfig.ci
+
+# Sensitive and key files
+*.key
+*.key.pub
+*.pem
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
